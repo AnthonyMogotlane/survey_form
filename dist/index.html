@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Page</title>
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <!-- East Sea Dokdo fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+  <!-- Roboto fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+
+  </nav>
+  <div class="survey-form">
+    <header>
+      <h1 id="title"><span id="am">AMdeveloper</span> survey form</h1>
+      <p id="description">Thank you for taking your time to help me grow as a developer</p>
+    </header>
+
+    <div class="form">
+      <form action="" id="survey-form">
+
+        <label id="name-label" for="name">Name</label><br>
+        <input id="name" class="input-form" type="text" placeholder="Enter your name" required><br>
+        
+
+        <label id="email-label" for="email">Email</label><br>
+        <input id="email" class="input-form" type="email" placeholder="example@gmail.com" required><br>
+
+        <label id="number-label" for="number">Age</label><br>
+        <input id="number" class="input-form" type="number" placeholder="Enter your age" min="16" max="60"><br>
+
+        <label for="">Which best describe your occupation?</label><br>
+        <select  name="" id="dropdown">
+          <option value="">Student</option>
+          <option value="">Web developer</option>
+          <option value="">Data Engineer</option>
+          <option value="">Software developer</option>
+          <option value="">Designer</option>
+          <option value="">Other</option> 
+        </select><br>
+        
+        <label for="">Will you recommend AMdeveloper for a project?</label><br>
+        <input class="radio1" type="radio" name="recomandation" value="Definitly">
+        <label for="">Definitely</label><br>
+        <input class="radio2" type="radio" name="recomandation" value="maybe">
+        <label for="">Maybe</label><br>
+        <input class="radio3" type="radio" name="recomandation" value="notsure">
+        <label for="">Not sure</label><br>
+
+        <label for="dropdown">Which one is your favourate project by AMdeveloper?</label><br>
+        <select name="" id="dropdown">
+            <option value="">Tribute Page</option>
+            <option value="">Survey Form</option>
+            <option value="">Product Landing Page</option>
+            <option value="">Technical Documantion Page</option>
+            <option value="">Personal Portfolio Webpage</option>
+        </select><br>
+
+        <label for="">Which programming language would you like to see me improve in?</label><br>
+        <span style="font-size: 12px;">(check all that apply)</span><br>
+        <input class="radio1" type="checkbox" value="checkbox">
+        <label for="">HTML5</label><br>
+        <input type="checkbox" value="checkbox">
+        <label for="">CSS3</label><br>
+        <input type="checkbox" value="checkbox">
+        <label for="">PHP</label><br>
+        <input type="checkbox" value="checkbox">
+        <label for="">Javascript</label><br>
+        <input type="checkbox" value="checkbox">
+        <label for="">C#</label><br>
+        <input type="checkbox" value="checkbox">
+        <label for="">Java</label><br>
+        <input class="radio3" type="checkbox" value="checkbox">
+        <label for="">Python</label><br>
+
+        <label for="suggestions">Any suggestions?</label><br>
+        <textarea id="suggestions" name="suggestions" placeholder="comments" autofocus></textarea><br> 
+
+        <input id="submit" type="submit" value="submit">
+      </form>
+    </div>
+</div>
+
+<footer>
+  <a href="https://www.linkedin.com/in/anthonymogotlane/" target="_blank">
+    <i class="fab fa-linkedin fa-3x"></i>
+  </a> 
+</footer>
+
+  <script src="js/bundle.js"></script>
+</body>
+</html>
