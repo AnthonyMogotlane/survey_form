@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(rgba(177, 49, 55, 0.5), yellow), url("../img/codestorm.jpg");
+  background-image: linear-gradient(rgba(177, 49, 102, 0.8), blue), url("../img/codestorm.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -42,6 +42,7 @@ header #title #am {
 header #description {
   margin-top: -20px;
   font-style: italic;
+  color: white;
 }
 
 .survey-form {
@@ -128,6 +129,17 @@ footer a:hover {
   .survey-form {
     margin: auto;
     width: 98%;
+  }
+
+  header {
+    font-size: 10px;
+  }
+  header #title {
+    margin-top: 60px;
+  }
+
+  #description {
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 501px) and (max-width: 768px) {
